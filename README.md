@@ -19,3 +19,5 @@ You will also see any lint errors in the console.
 Please, use ###yarn### to start up the application.
 
 Autotests werent required, but i prefer to do them. If you'll need **autotests** please, let me know, i will do.
+
+instead of **BEM** i used `sass-modules` so it allows me to use maximum short naming
