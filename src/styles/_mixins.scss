@@ -1,0 +1,7 @@
+@mixin round-borders {
+  border-radius: 10px;
+}
+
+@mixin with-shadow {
+  box-shadow: 0 24px 64px 0 rgba(0, 0, 0, 0.12);
+}

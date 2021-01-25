@@ -1,0 +1,45 @@
+@import "./styles/variables";
+
+.layout {
+  background-color: $background-layout;
+  padding: 20px 16px;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content {
+  padding: 24px 16px;
+  background-color: $background-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.list {
+  margin-top: 30px;
+
+  p {
+    @include bold-font;
+  }
+}
+
+@include tablet {
+  .layout {
+    padding: 50px 0px;
+  }
+
+  .content {
+    padding: 38px 30px;
+    width: 768px;
+    margin: 0px auto;
+    @include round-borders;
+    @include with-shadow;
+  }
+}
+
+@include desktop {
+  .content {
+    width: 910px;
+    margin: 0px auto;
+  }
+}

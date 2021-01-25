@@ -1,0 +1,17 @@
+.footer {
+  padding-top: 20px;
+  position: relative;
+
+  &_inner {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+.error {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  color: red;
+}
