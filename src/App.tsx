@@ -74,7 +74,7 @@ const App: React.FC<RouteComponentProps> = (props) => {
   return (
     <Layout className={styles.layout}>
       <Content className={styles.content}>
-        <div>
+        <div className={styles.list_wrapper}>
           <ApplicationHeader>Svobodná Evropa</ApplicationHeader>
           <div className={styles.list}>
             <List bordered dataSource={list} renderItem={renderListItem} />

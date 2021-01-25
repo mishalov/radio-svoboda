@@ -17,9 +17,10 @@
 
 .list {
   margin-top: 30px;
+  @include bold-font;
 
-  p {
-    @include bold-font;
+  &_wrapper {
+    overflow: auto;
   }
 }
 
